@@ -1,0 +1,5 @@
+D:\My_projects\!GeekBrains\4 Основы С#\CScharp_Level1_Lessons\CScharp_Level1_Lessons\obj\Debug\net6.0\Lesson01.csproj.AssemblyReference.cache
+D:\My_projects\!GeekBrains\4 Основы С#\CScharp_Level1_Lessons\CScharp_Level1_Lessons\obj\Debug\net6.0\Lesson01.GeneratedMSBuildEditorConfig.editorconfig
+D:\My_projects\!GeekBrains\4 Основы С#\CScharp_Level1_Lessons\CScharp_Level1_Lessons\obj\Debug\net6.0\Lesson01.AssemblyInfoInputs.cache
+D:\My_projects\!GeekBrains\4 Основы С#\CScharp_Level1_Lessons\CScharp_Level1_Lessons\obj\Debug\net6.0\Lesson01.AssemblyInfo.cs
+D:\My_projects\!GeekBrains\4 Основы С#\CScharp_Level1_Lessons\CScharp_Level1_Lessons\obj\Debug\net6.0\Lesson01.csproj.CoreCompileInputs.cache

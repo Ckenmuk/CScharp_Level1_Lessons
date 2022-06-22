@@ -1,0 +1,12 @@
+D:\My_projects\!GeekBrains\4 Основы С#\CScharp_Level1_Lessons\Ckenmuk.Test.Library\bin\Debug\net6.0\Ckenmuk.Test.Library.deps.json
+D:\My_projects\!GeekBrains\4 Основы С#\CScharp_Level1_Lessons\Ckenmuk.Test.Library\bin\Debug\net6.0\Ckenmuk.Test.Library.dll
+D:\My_projects\!GeekBrains\4 Основы С#\CScharp_Level1_Lessons\Ckenmuk.Test.Library\bin\Debug\net6.0\Ckenmuk.Test.Library.pdb
+D:\My_projects\!GeekBrains\4 Основы С#\CScharp_Level1_Lessons\Ckenmuk.Test.Library\obj\Debug\net6.0\Ckenmuk.Test.Library.csproj.AssemblyReference.cache
+D:\My_projects\!GeekBrains\4 Основы С#\CScharp_Level1_Lessons\Ckenmuk.Test.Library\obj\Debug\net6.0\Ckenmuk.Test.Library.GeneratedMSBuildEditorConfig.editorconfig
+D:\My_projects\!GeekBrains\4 Основы С#\CScharp_Level1_Lessons\Ckenmuk.Test.Library\obj\Debug\net6.0\Ckenmuk.Test.Library.AssemblyInfoInputs.cache
+D:\My_projects\!GeekBrains\4 Основы С#\CScharp_Level1_Lessons\Ckenmuk.Test.Library\obj\Debug\net6.0\Ckenmuk.Test.Library.AssemblyInfo.cs
+D:\My_projects\!GeekBrains\4 Основы С#\CScharp_Level1_Lessons\Ckenmuk.Test.Library\obj\Debug\net6.0\Ckenmuk.Test.Library.csproj.CoreCompileInputs.cache
+D:\My_projects\!GeekBrains\4 Основы С#\CScharp_Level1_Lessons\Ckenmuk.Test.Library\obj\Debug\net6.0\Ckenmuk.Test.Library.dll
+D:\My_projects\!GeekBrains\4 Основы С#\CScharp_Level1_Lessons\Ckenmuk.Test.Library\obj\Debug\net6.0\refint\Ckenmuk.Test.Library.dll
+D:\My_projects\!GeekBrains\4 Основы С#\CScharp_Level1_Lessons\Ckenmuk.Test.Library\obj\Debug\net6.0\Ckenmuk.Test.Library.pdb
+D:\My_projects\!GeekBrains\4 Основы С#\CScharp_Level1_Lessons\Ckenmuk.Test.Library\obj\Debug\net6.0\ref\Ckenmuk.Test.Library.dll
