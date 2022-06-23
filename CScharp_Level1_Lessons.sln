@@ -3,17 +3,24 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32516.85
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson01", "CScharp_Level1_Lessons\Lesson01.csproj", "{C1953410-2510-4BF8-ABD2-CEA63D142207}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lesson01", "CScharp_Level1_Lessons\Lesson01.csproj", "{C1953410-2510-4BF8-ABD2-CEA63D142207}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson02", "Lesson02\Lesson02.csproj", "{26C0487D-1B15-4962-B7F9-8DA9F2B7F4DA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lesson02", "Lesson02\Lesson02.csproj", "{26C0487D-1B15-4962-B7F9-8DA9F2B7F4DA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ckenmuk.Test.Library", "Ckenmuk.Test.Library\Ckenmuk.Test.Library.csproj", "{282CE661-8F01-4E50-BF40-22D954365886}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ckenmuk.Test.Library", "Ckenmuk.Test.Library\Ckenmuk.Test.Library.csproj", "{282CE661-8F01-4E50-BF40-22D954365886}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson03", "Lesson03\Lesson03.csproj", "{ABC9F9E2-3BB2-4494-96A8-156665AA9087}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lesson03", "Lesson03\Lesson03.csproj", "{ABC9F9E2-3BB2-4494-96A8-156665AA9087}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson04", "Lesson04\Lesson04.csproj", "{CD9BB41C-58A8-4C3B-A3DD-C763FD8FF7C5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lesson04", "Lesson04\Lesson04.csproj", "{CD9BB41C-58A8-4C3B-A3DD-C763FD8FF7C5}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson05", "Lesson05\Lesson05.csproj", "{6439E2BA-DE01-4AC0-9F0D-1754C1435687}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lesson06", "Lesson06\Lesson06.csproj", "{2E1F66DE-956E-41FB-9034-DDA1CFA89EBD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{85F74A60-8E63-44C1-9CB7-E746CA45C2AC}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +52,10 @@ Global
 		{6439E2BA-DE01-4AC0-9F0D-1754C1435687}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6439E2BA-DE01-4AC0-9F0D-1754C1435687}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6439E2BA-DE01-4AC0-9F0D-1754C1435687}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E1F66DE-956E-41FB-9034-DDA1CFA89EBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E1F66DE-956E-41FB-9034-DDA1CFA89EBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E1F66DE-956E-41FB-9034-DDA1CFA89EBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E1F66DE-956E-41FB-9034-DDA1CFA89EBD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

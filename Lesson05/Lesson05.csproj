@@ -5,10 +5,11 @@
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <StartupObject>Lesson05.Ex03</StartupObject>
   </PropertyGroup>
 
   <ItemGroup>
-    <None Include="..\.editorconfig" Link=".editorconfig" />
+    <ProjectReference Include="..\Ckenmuk.Test.Library\Ckenmuk.Test.Library.csproj" />
   </ItemGroup>
 
 </Project>
