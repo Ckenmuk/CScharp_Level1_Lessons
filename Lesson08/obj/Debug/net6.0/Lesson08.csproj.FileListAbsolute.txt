@@ -1,0 +1,16 @@
+D:\My_projects\!GeekBrains\4 Основы С#\CScharp_Level1_Lessons\Lesson08\bin\Debug\net6.0\Lesson08.exe
+D:\My_projects\!GeekBrains\4 Основы С#\CScharp_Level1_Lessons\Lesson08\bin\Debug\net6.0\Lesson08.deps.json
+D:\My_projects\!GeekBrains\4 Основы С#\CScharp_Level1_Lessons\Lesson08\bin\Debug\net6.0\Lesson08.runtimeconfig.json
+D:\My_projects\!GeekBrains\4 Основы С#\CScharp_Level1_Lessons\Lesson08\bin\Debug\net6.0\Lesson08.dll
+D:\My_projects\!GeekBrains\4 Основы С#\CScharp_Level1_Lessons\Lesson08\bin\Debug\net6.0\Lesson08.pdb
+D:\My_projects\!GeekBrains\4 Основы С#\CScharp_Level1_Lessons\Lesson08\obj\Debug\net6.0\Lesson08.csproj.AssemblyReference.cache
+D:\My_projects\!GeekBrains\4 Основы С#\CScharp_Level1_Lessons\Lesson08\obj\Debug\net6.0\Lesson08.GeneratedMSBuildEditorConfig.editorconfig
+D:\My_projects\!GeekBrains\4 Основы С#\CScharp_Level1_Lessons\Lesson08\obj\Debug\net6.0\Lesson08.AssemblyInfoInputs.cache
+D:\My_projects\!GeekBrains\4 Основы С#\CScharp_Level1_Lessons\Lesson08\obj\Debug\net6.0\Lesson08.AssemblyInfo.cs
+D:\My_projects\!GeekBrains\4 Основы С#\CScharp_Level1_Lessons\Lesson08\obj\Debug\net6.0\Lesson08.csproj.CoreCompileInputs.cache
+D:\My_projects\!GeekBrains\4 Основы С#\CScharp_Level1_Lessons\Lesson08\obj\Debug\net6.0\Lesson08.dll
+D:\My_projects\!GeekBrains\4 Основы С#\CScharp_Level1_Lessons\Lesson08\obj\Debug\net6.0\refint\Lesson08.dll
+D:\My_projects\!GeekBrains\4 Основы С#\CScharp_Level1_Lessons\Lesson08\obj\Debug\net6.0\Lesson08.pdb
+D:\My_projects\!GeekBrains\4 Основы С#\CScharp_Level1_Lessons\Lesson08\obj\Debug\net6.0\Lesson08.genruntimeconfig.cache
+D:\My_projects\!GeekBrains\4 Основы С#\CScharp_Level1_Lessons\Lesson08\obj\Debug\net6.0\ref\Lesson08.dll
+D:\My_projects\!GeekBrains\4 Основы С#\CScharp_Level1_Lessons\Lesson08\bin\Debug\net6.0\Person.xml

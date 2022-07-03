@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Lesson06/1.0.0": {
+        "dependencies": {
+          "Ckenmuk.Test.Library": "1.0.0"
+        },
+        "runtime": {
+          "Lesson06.dll": {}
+        }
+      },
+      "Ckenmuk.Test.Library/1.0.0": {
+        "runtime": {
+          "Ckenmuk.Test.Library.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Lesson06/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Ckenmuk.Test.Library/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

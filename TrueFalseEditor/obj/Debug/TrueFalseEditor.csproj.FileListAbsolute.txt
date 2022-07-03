@@ -1,0 +1,11 @@
+D:\My_projects\!GeekBrains\4 Основы С#\CScharp_Level1_Lessons\TrueFalseEditor\bin\Debug\TrueFalseEditor.exe.config
+D:\My_projects\!GeekBrains\4 Основы С#\CScharp_Level1_Lessons\TrueFalseEditor\bin\Debug\TrueFalseEditor.exe
+D:\My_projects\!GeekBrains\4 Основы С#\CScharp_Level1_Lessons\TrueFalseEditor\bin\Debug\TrueFalseEditor.pdb
+D:\My_projects\!GeekBrains\4 Основы С#\CScharp_Level1_Lessons\TrueFalseEditor\obj\Debug\TrueFalseEditor.csproj.AssemblyReference.cache
+D:\My_projects\!GeekBrains\4 Основы С#\CScharp_Level1_Lessons\TrueFalseEditor\obj\Debug\TrueFalseEditor.csproj.SuggestedBindingRedirects.cache
+D:\My_projects\!GeekBrains\4 Основы С#\CScharp_Level1_Lessons\TrueFalseEditor\obj\Debug\TrueFalseEditor.Main.resources
+D:\My_projects\!GeekBrains\4 Основы С#\CScharp_Level1_Lessons\TrueFalseEditor\obj\Debug\TrueFalseEditor.Properties.Resources.resources
+D:\My_projects\!GeekBrains\4 Основы С#\CScharp_Level1_Lessons\TrueFalseEditor\obj\Debug\TrueFalseEditor.csproj.GenerateResource.cache
+D:\My_projects\!GeekBrains\4 Основы С#\CScharp_Level1_Lessons\TrueFalseEditor\obj\Debug\TrueFalseEditor.csproj.CoreCompileInputs.cache
+D:\My_projects\!GeekBrains\4 Основы С#\CScharp_Level1_Lessons\TrueFalseEditor\obj\Debug\TrueFalseEditor.exe
+D:\My_projects\!GeekBrains\4 Основы С#\CScharp_Level1_Lessons\TrueFalseEditor\obj\Debug\TrueFalseEditor.pdb
