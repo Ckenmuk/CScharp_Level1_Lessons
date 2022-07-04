@@ -36,14 +36,16 @@
             this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
             this.menuItemSave = new System.Windows.Forms.ToolStripMenuItem();
             this.menuItemExit = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsbAbout = new System.Windows.Forms.ToolStripButton();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.btnAdd = new System.Windows.Forms.Button();
-            this.btnDelete = new System.Windows.Forms.Button();
-            this.btnSave = new System.Windows.Forms.Button();
-            this.cbTrue = new System.Windows.Forms.CheckBox();
             this.nudNumber = new System.Windows.Forms.NumericUpDown();
+            this.cbTrue = new System.Windows.Forms.CheckBox();
+            this.btnSave = new System.Windows.Forms.Button();
+            this.btnDelete = new System.Windows.Forms.Button();
+            this.btnAdd = new System.Windows.Forms.Button();
             this.tbQuestion = new System.Windows.Forms.TextBox();
-            this.btnGame = new System.Windows.Forms.Button();
+            this.labelAbout = new System.Windows.Forms.Label();
+            this.menuItemSaveAs = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStrip1.SuspendLayout();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudNumber)).BeginInit();
@@ -52,10 +54,11 @@
             // toolStrip1
             // 
             this.toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripDropDownButton1});
+            this.toolStripDropDownButton1,
+            this.tsbAbout});
             this.toolStrip1.Location = new System.Drawing.Point(0, 0);
             this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Size = new System.Drawing.Size(800, 25);
+            this.toolStrip1.Size = new System.Drawing.Size(484, 25);
             this.toolStrip1.TabIndex = 0;
             this.toolStrip1.Text = "toolStrip1";
             // 
@@ -67,12 +70,14 @@
             this.menuItemOpen,
             this.toolStripSeparator1,
             this.menuItemSave,
+            this.menuItemSaveAs,
             this.menuItemExit});
             this.toolStripDropDownButton1.Image = ((System.Drawing.Image)(resources.GetObject("toolStripDropDownButton1.Image")));
             this.toolStripDropDownButton1.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripDropDownButton1.Name = "toolStripDropDownButton1";
             this.toolStripDropDownButton1.Size = new System.Drawing.Size(38, 22);
             this.toolStripDropDownButton1.Text = "File";
+            this.toolStripDropDownButton1.Click += new System.EventHandler(this.toolStripDropDownButton1_Click);
             // 
             // menuItemNew
             // 
@@ -107,6 +112,16 @@
             this.menuItemExit.Text = "Exit";
             this.menuItemExit.Click += new System.EventHandler(this.menuItemExit_Click);
             // 
+            // tsbAbout
+            // 
+            this.tsbAbout.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
+            this.tsbAbout.Image = ((System.Drawing.Image)(resources.GetObject("tsbAbout.Image")));
+            this.tsbAbout.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.tsbAbout.Name = "tsbAbout";
+            this.tsbAbout.Size = new System.Drawing.Size(44, 22);
+            this.tsbAbout.Text = "About";
+            this.tsbAbout.Click += new System.EventHandler(this.tsbAbout_Click);
+            // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.SystemColors.ActiveCaption;
@@ -116,14 +131,60 @@
             this.panel1.Controls.Add(this.btnDelete);
             this.panel1.Controls.Add(this.btnAdd);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel1.Location = new System.Drawing.Point(0, 392);
+            this.panel1.Location = new System.Drawing.Point(0, 270);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(800, 91);
+            this.panel1.Size = new System.Drawing.Size(484, 91);
             this.panel1.TabIndex = 1;
+            // 
+            // nudNumber
+            // 
+            this.nudNumber.Font = new System.Drawing.Font("Comic Sans MS", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.nudNumber.Location = new System.Drawing.Point(317, 29);
+            this.nudNumber.Name = "nudNumber";
+            this.nudNumber.Size = new System.Drawing.Size(77, 34);
+            this.nudNumber.TabIndex = 2;
+            this.nudNumber.ValueChanged += new System.EventHandler(this.nudNumber_ValueChanged);
+            // 
+            // cbTrue
+            // 
+            this.cbTrue.AutoSize = true;
+            this.cbTrue.Dock = System.Windows.Forms.DockStyle.Right;
+            this.cbTrue.Font = new System.Drawing.Font("Comic Sans MS", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.cbTrue.Location = new System.Drawing.Point(410, 0);
+            this.cbTrue.Name = "cbTrue";
+            this.cbTrue.Size = new System.Drawing.Size(74, 91);
+            this.cbTrue.TabIndex = 5;
+            this.cbTrue.Text = "True";
+            this.cbTrue.UseVisualStyleBackColor = true;
+            // 
+            // btnSave
+            // 
+            this.btnSave.Dock = System.Windows.Forms.DockStyle.Left;
+            this.btnSave.Font = new System.Drawing.Font("Comic Sans MS", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.btnSave.Location = new System.Drawing.Point(175, 0);
+            this.btnSave.Name = "btnSave";
+            this.btnSave.Size = new System.Drawing.Size(75, 91);
+            this.btnSave.TabIndex = 4;
+            this.btnSave.Text = "Save";
+            this.btnSave.UseVisualStyleBackColor = true;
+            this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
+            // 
+            // btnDelete
+            // 
+            this.btnDelete.Dock = System.Windows.Forms.DockStyle.Left;
+            this.btnDelete.Font = new System.Drawing.Font("Comic Sans MS", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.btnDelete.Location = new System.Drawing.Point(75, 0);
+            this.btnDelete.Name = "btnDelete";
+            this.btnDelete.Size = new System.Drawing.Size(100, 91);
+            this.btnDelete.TabIndex = 3;
+            this.btnDelete.Text = "Delete";
+            this.btnDelete.UseVisualStyleBackColor = true;
+            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
             // 
             // btnAdd
             // 
             this.btnAdd.Dock = System.Windows.Forms.DockStyle.Left;
+            this.btnAdd.Font = new System.Drawing.Font("Comic Sans MS", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.btnAdd.Location = new System.Drawing.Point(0, 0);
             this.btnAdd.Name = "btnAdd";
             this.btnAdd.Size = new System.Drawing.Size(75, 91);
@@ -132,48 +193,6 @@
             this.btnAdd.UseVisualStyleBackColor = true;
             this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
             // 
-            // btnDelete
-            // 
-            this.btnDelete.Dock = System.Windows.Forms.DockStyle.Left;
-            this.btnDelete.Location = new System.Drawing.Point(75, 0);
-            this.btnDelete.Name = "btnDelete";
-            this.btnDelete.Size = new System.Drawing.Size(75, 91);
-            this.btnDelete.TabIndex = 3;
-            this.btnDelete.Text = "Delete";
-            this.btnDelete.UseVisualStyleBackColor = true;
-            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
-            // 
-            // btnSave
-            // 
-            this.btnSave.Dock = System.Windows.Forms.DockStyle.Left;
-            this.btnSave.Location = new System.Drawing.Point(150, 0);
-            this.btnSave.Name = "btnSave";
-            this.btnSave.Size = new System.Drawing.Size(75, 91);
-            this.btnSave.TabIndex = 4;
-            this.btnSave.Text = "Save";
-            this.btnSave.UseVisualStyleBackColor = true;
-            this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
-            // 
-            // cbTrue
-            // 
-            this.cbTrue.AutoSize = true;
-            this.cbTrue.Dock = System.Windows.Forms.DockStyle.Right;
-            this.cbTrue.Location = new System.Drawing.Point(752, 0);
-            this.cbTrue.Name = "cbTrue";
-            this.cbTrue.Size = new System.Drawing.Size(48, 91);
-            this.cbTrue.TabIndex = 5;
-            this.cbTrue.Text = "True";
-            this.cbTrue.UseVisualStyleBackColor = true;
-            // 
-            // nudNumber
-            // 
-            this.nudNumber.Dock = System.Windows.Forms.DockStyle.Right;
-            this.nudNumber.Location = new System.Drawing.Point(700, 0);
-            this.nudNumber.Name = "nudNumber";
-            this.nudNumber.Size = new System.Drawing.Size(52, 20);
-            this.nudNumber.TabIndex = 2;
-            this.nudNumber.ValueChanged += new System.EventHandler(this.nudNumber_ValueChanged);
-            // 
             // tbQuestion
             // 
             this.tbQuestion.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -181,31 +200,44 @@
             this.tbQuestion.Location = new System.Drawing.Point(0, 25);
             this.tbQuestion.Multiline = true;
             this.tbQuestion.Name = "tbQuestion";
-            this.tbQuestion.Size = new System.Drawing.Size(800, 367);
+            this.tbQuestion.Size = new System.Drawing.Size(484, 245);
             this.tbQuestion.TabIndex = 2;
             // 
-            // btnGame
+            // labelAbout
             // 
-            this.btnGame.Location = new System.Drawing.Point(379, 187);
-            this.btnGame.Name = "btnGame";
-            this.btnGame.Size = new System.Drawing.Size(75, 23);
-            this.btnGame.TabIndex = 3;
-            this.btnGame.Text = "Game";
-            this.btnGame.UseVisualStyleBackColor = true;
-            this.btnGame.Click += new System.EventHandler(this.btnGame_Click);
+            this.labelAbout.AutoSize = true;
+            this.labelAbout.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.labelAbout.Font = new System.Drawing.Font("Comic Sans MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.labelAbout.Location = new System.Drawing.Point(5, 30);
+            this.labelAbout.Name = "labelAbout";
+            this.labelAbout.Size = new System.Drawing.Size(468, 140);
+            this.labelAbout.TabIndex = 3;
+            this.labelAbout.Text = "TrueFalseEditor\r\nVersion 1.0\r\n\r\nAdd information in your own database, change or d" +
+    "elete elements. \r\nSave your file and open it at any time\r\n\r\nCopyright © 2022 Mix" +
+    "ailo Company";
+            // 
+            // menuItemSaveAs
+            // 
+            this.menuItemSaveAs.Name = "menuItemSaveAs";
+            this.menuItemSaveAs.Size = new System.Drawing.Size(180, 22);
+            this.menuItemSaveAs.Text = "Save As";
+            this.menuItemSaveAs.Click += new System.EventHandler(this.menuItemSaveAs_Click);
             // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 483);
-            this.Controls.Add(this.btnGame);
+            this.ClientSize = new System.Drawing.Size(484, 361);
+            this.Controls.Add(this.labelAbout);
             this.Controls.Add(this.tbQuestion);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.toolStrip1);
+            this.MaximumSize = new System.Drawing.Size(500, 400);
+            this.MinimumSize = new System.Drawing.Size(500, 400);
             this.Name = "Main";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "TrueFalseEditor";
+            this.Load += new System.EventHandler(this.Main_Load);
             this.toolStrip1.ResumeLayout(false);
             this.toolStrip1.PerformLayout();
             this.panel1.ResumeLayout(false);
@@ -232,7 +264,9 @@
         private System.Windows.Forms.Button btnDelete;
         private System.Windows.Forms.Button btnAdd;
         private System.Windows.Forms.TextBox tbQuestion;
-        private System.Windows.Forms.Button btnGame;
+        private System.Windows.Forms.ToolStripButton tsbAbout;
+        private System.Windows.Forms.Label labelAbout;
+        private System.Windows.Forms.ToolStripMenuItem menuItemSaveAs;
     }
 }
 

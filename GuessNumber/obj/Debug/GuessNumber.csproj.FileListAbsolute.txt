@@ -1,0 +1,11 @@
+D:\My_projects\!GeekBrains\4 Основы С#\CScharp_Level1_Lessons\GuessNumber\bin\Debug\GuessNumber.exe.config
+D:\My_projects\!GeekBrains\4 Основы С#\CScharp_Level1_Lessons\GuessNumber\bin\Debug\GuessNumber.exe
+D:\My_projects\!GeekBrains\4 Основы С#\CScharp_Level1_Lessons\GuessNumber\bin\Debug\GuessNumber.pdb
+D:\My_projects\!GeekBrains\4 Основы С#\CScharp_Level1_Lessons\GuessNumber\obj\Debug\GuessNumber.csproj.AssemblyReference.cache
+D:\My_projects\!GeekBrains\4 Основы С#\CScharp_Level1_Lessons\GuessNumber\obj\Debug\GuessNumber.csproj.SuggestedBindingRedirects.cache
+D:\My_projects\!GeekBrains\4 Основы С#\CScharp_Level1_Lessons\GuessNumber\obj\Debug\GuessNumber.Main.resources
+D:\My_projects\!GeekBrains\4 Основы С#\CScharp_Level1_Lessons\GuessNumber\obj\Debug\GuessNumber.Properties.Resources.resources
+D:\My_projects\!GeekBrains\4 Основы С#\CScharp_Level1_Lessons\GuessNumber\obj\Debug\GuessNumber.csproj.GenerateResource.cache
+D:\My_projects\!GeekBrains\4 Основы С#\CScharp_Level1_Lessons\GuessNumber\obj\Debug\GuessNumber.csproj.CoreCompileInputs.cache
+D:\My_projects\!GeekBrains\4 Основы С#\CScharp_Level1_Lessons\GuessNumber\obj\Debug\GuessNumber.exe
+D:\My_projects\!GeekBrains\4 Основы С#\CScharp_Level1_Lessons\GuessNumber\obj\Debug\GuessNumber.pdb
